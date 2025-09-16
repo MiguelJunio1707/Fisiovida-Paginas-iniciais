@@ -20,6 +20,7 @@ header {
     align-items: center;
     position: fixed;
     width: 100%;
+    padding-top: 1.0%;
 }
 li {
     list-style: none;
@@ -38,10 +39,16 @@ section {
     justify-content: center;
     align-items: center;
 }
-.botaol{
+.botaoA{
     position: absolute; 
     top: 20px;        
     right: 20px; 
+    background-color: #dbda75;
+}
+.botaoB{
+    position: absolute; 
+    top: 20px;        
+    right: 100px; 
     background-color: #dbda75;
 }
 .imagem{
