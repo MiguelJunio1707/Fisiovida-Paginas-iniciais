@@ -15,19 +15,45 @@
     </style>
 </head>
 <body>
-    <header>
-         <nav >
-            <ul>
-                <li><a href="index.html"><img class="imagem" src="/Teste/img/Fisiovida logo.png" alt="icon"></a></li>
-                <li><a href="index.html"><button type="button" class="btn btn-outline-success botao1"><b>Inicio</b></button></a></li>
-                <li><a href="sobre.html"><button type="button" class="btn btn-outline-success botao1"><B>Sobre</B></button></a></li>
-                <li><a href="servico.html"><button type="button" class="btn btn-outline-success botao1"><b>Serviços</b></button></a></li>
-                <li><a href="equipe.html"><button type="button" class="btn btn-outline-success botao1"><b>Equipe</b></button></a></li>
-                <li><a href="contato.html"><button type="button" class="btn btn-outline-success active botao1"><b>Contato</b></button></a></li>
-                <li><button type="button" class="btn btn-outline-success botaoA">Login</button></li>
-                <li><button type="button" class="btn btn-outline-success botaoB">Register</button></li>
-            </ul>
-        </nav>
-    </header>
+     <div class="container-fluid bg-light ps-1 pe-0 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-md-6 text-center text-lg-start mb-0">
+                <div class="d-inline-flex align-items-center">
+                    <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Aberto de Segunda-feira a Sexta-feira das 8 : 00 AM até 18 : 00 PM.</small>
+                </div>
+            </div>
+            <div class="col-md-6 text-center text-lg-end">
+                <div class="position-relative d-inline-flex align-items-center bg-success text-white top-shape px-4">
+                    <div class="me-3 pe-3 border-end py-2">
+                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>info@example.com</p>
+                    </div>
+                    <div class="py-2">
+                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar bg-light navbar-expand-lg sticky-xxl-top">
+        <div class="container">
+            <a href="" class="navbar-brand d-flex align-items-center">
+                <img src="/Fisiovida-Paginas-iniciais/img/Fisiovida logo.png" alt="imagemfisiovida" class="imagem" width="120" height="90">
+            </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menunavbar" id="menunavbar"><span class="navbar-toggler-icon"></span></button>
+        </div>
+        <div class="collapse navbar-collapse" id="menunavbar">
+            <div class="navbar-nav">
+                <a href="index.html" class="nav-link">HOME</a>
+                <a href="equipe.html" class="nav-link">EQUIPE</a>
+                <a href="servico.html" class="nav-link">SERVIÇO</a>
+                <a href="sobre.html" class="nav-link">SOBRE</a>
+                <a href="contato.html" class="nav-link active">CONTATO</a>
+            </div>
+        <div class="collapse navbar-collapse ">
+            <button type="button" class="btn btn-outline-primary botao1"><i class="bi bi-person-fill"> Login</i></button>
+            <button type="button" class="btn btn-outline-primary botao2"><i class="bi bi-calendar"> Agendar</i></button>
+        </div>
+        </div>
+    </nav>
 </body>
 </html>

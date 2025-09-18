@@ -26,8 +26,6 @@ header {
     width: 100%;
     padding-top: 1.5%;
 }
-.topbar{
-}
 li {
     list-style: none;
     display: inline-block;
@@ -59,30 +57,19 @@ a {
     left: 5px;
 }
 .botao1{
-  padding: 5px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 20px;
-  border-color: blue;
-  cursor: pointer;
-  /* Animação suave */
-  transition: transform 0.5s ease, box-shadow 0.3s ease;
+    position: absolute;
+    right: 1%;
 }
-button:hover {
-  transform: scale(1.1); /* aumenta 10% */
-  box-shadow: 0 6px 15px rgba(0, 0, 255, 0.2);
+.botao2{
+    position: absolute;
+    right: 6%;
 }
-    .botao1{
-        display: inline-block;
-        padding: 0.4em 1.2em;
-        background: rgb(255, 255, 255);
-        color: #000000;
-        text-decoration: none;
-        border-radius: 100px;
-        transition: transform 0.5s ease;
-    }
-    .botao1:hover{
-        transform: scale(1.1);
-        background-color: rgb(198, 245, 194);
-        box-shadow: 0 4px 12px rgba(red, green, blue, alpha);
-    }
+.imagem{
+
+        position: absolute;
+        left: 0px;
+}
+.card1{
+    display: flex;
+    justify-items: center;
+}
